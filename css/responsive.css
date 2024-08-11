@@ -1,0 +1,76 @@
+@media only screen and (max-width: 640px){
+    .investment-section .dash{
+        display: none;
+    }
+    .investment-section h1{
+        letter-spacing: .2rem;
+    }
+    .assurance-content-container{
+        flex-direction: column;
+        display: flex;
+        gap: 20px;
+    }
+    .features-heading h1{
+        font-size: 2rem !important;
+        margin: 15px 0px;
+    }
+    .features-list{
+        flex-direction: column;
+        width: 100%;
+        padding: 5px;
+        align-items: center;
+    }
+    .features .feature-item{
+        width: 70% !important;
+    }
+    .works-list{
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 20px;
+    }
+    .arrow{
+        display: none !important;
+    }
+    .reasons .container{
+        display: flex !important;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .reasons .right h1{
+        text-align: center;
+    }
+    .reasons .right{
+        width: 100%;
+        padding: 20px 20px !important;
+    }
+    .reasons .right h1{
+        text-align: center !important;
+    }
+    .reasons-list{
+        width: 100%;
+        column-gap: 100;
+        padding: 10px;
+    }
+    .reasons .left{
+        display: flex;
+        align-items: center !important;
+        justify-content: center;
+        width: 100%;
+    }
+    .reasons .left .image-box{
+        width: 80% !important;
+        padding-bottom: 100px !important;
+    }
+    .join .container{
+        width: 100% !important;
+        padding: 10px;
+    }
+    .join .container h1{
+        font-size: 2rem !important;
+    }
+    footer .container .top{
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

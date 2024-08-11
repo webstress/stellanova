@@ -8,22 +8,37 @@
 
     <!-- Tailwind CSS CDN -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- font awsome-->
+
+
+<!--custom styles-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
 </head>
 
 <body>
     <nav class="bg-white shadow-md">
-        <div class="container mx-auto px-4">
+        <div class="container mx-auto px-4 header-container">
             <div class="flex items-center justify-between h-16">
                 <!-- Logo Section -->
-                <div class="flex-shrink-0">
+                <div class="flex-shrink-0 logo">
                     <a href="#" class="ml-[-10px] text-xl font-bold text-gray-800">
                         <img src=" assets\images\Blue Minimalist Investment Company Logo 1@2x.png"></img>
                     </a>
                 </div>
 
                 <!-- Links Section -->
-                <div class="hidden md:flex md:space-x-8">
+                <div class="hidden md:flex md:space-x-8 nav-links">
                     <a href="home.php" class="text-gray-700 hover:text-blue-600" style='font-size: 20px;'>Home</a>
                     <a href="about.php" class="text-gray-700 hover:text-blue-600" style='font-size: 20px;'>About</a>
                     <a href="investment.php" class="text-gray-700 hover:text-blue-600" style='font-size: 20px;'>Investment</a>
