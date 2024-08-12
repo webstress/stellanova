@@ -1,7 +1,10 @@
+@import url(mobile.css);
+
+
 :root{
   --primary-color: #10375C;
   --secondary-color: #185287 ;
-  --accent-color: ;
+  --accent-color: #F6FAFB;
   --white: #fff;
   --accent-grey: #E3E3E3;
 }
@@ -210,16 +213,13 @@ section.works {
           }
         }
       }
-
-      div.arrow {
-        
-        img {
-        }
-      }
     }
   }
 }
-
+.works .arrowo{
+  transform: scale(1.8);
+  margin-left: 20px;
+}
 
 
 
@@ -275,9 +275,6 @@ section.reasons {
             span {
               font-size: 1.5rem !important;
               font-weight: 100;
-            }
-            br {
-
             }
           }
         }
@@ -409,7 +406,6 @@ section.reasons {
 .trade-button:hover {
   background-color: #007bff; /* No hover effect since it's dormant */
 }
-
 
 
 section.investment-plans {
@@ -552,6 +548,152 @@ section.join {
   }
 }
 
+/*about page*/
+.about.hero {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  background-image: url("../assets/images/abouthero.png");
+  position: relative;
+  z-index: -1;
+
+  div.container {
+    z-index: 5;
+    color: white;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    justify-content: center; 
+    h2 {
+      font-size: 1.3rem;
+      text-transform: capitalize;
+      font-weight: 900px;
+      font-family: "poppins";
+    }
+
+    hr {
+      width: 10%;
+    }
+
+    h1 {
+      font-size: 2.7rem;
+      font-family: "montserrat";
+      font: weight 900px;
+      text-transform:capitalize;
+
+    }
+  }
+}
+.about.hero::before{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  content: '';
+  opacity: .4;
+  position: absolute;
+  z-index: 1;
+
+}
+
+section.text {
+  width: 100%;
+  padding: 60px 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  p {
+    font-family: "montserrat";
+    text-align: center;
+    width: 75%;
+  }
+}
+
+section.vision {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  div.container {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--accent-color);
+    div.right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      gap: 20px;
+      h1 {
+        font-size: 2.3rem;
+        font-family: "poppins";
+        font-weight: 600;
+        text-transform: capitalize;
+        span {
+          color: var(--secondary-color);
+
+        }
+      }
+
+      p {
+        font-size: 1.1rem;
+        font-family: "montserrat";
+
+      }
+    }
+  }
+}
+
+.choice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  div.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    gap: 25px;
+    padding: 20px;
+    h1 {
+      font-size: 2.5rem;
+      font-family: "poppins";
+      font-weight: 700;
+      text-transform: capitalize;
+      span {
+        color: var(--secondary-color);
+      }
+    }
+
+    div {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      p {
+        font-size: 1.2rem;
+        b {
+
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+/*about page*/
+
 
 footer {
   background-color: var(--primary-color);
@@ -567,9 +709,6 @@ footer {
       grid-template-columns: 1fr 1fr 1fr 1fr;
       width: 100%;
       padding: 60px;
-
-      
-
       .col {
         align-items: center;
         display: flex;
@@ -607,5 +746,12 @@ footer {
         padding: 7px;
       }
     }
+  }
+  h2{
+    color: white;
+    text-transform: capitalize;
+    text-align: left;
+    font-size: 1.2rem;
+    padding: 10px 0px;
   }
 }

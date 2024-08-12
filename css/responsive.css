@@ -73,4 +73,11 @@
         flex-direction: column;
         justify-content: center;
     }
+    .vision .container{
+        display: flex !important;
+        flex-direction: column-reverse;
+    }
+    .choice .container div{
+        grid-template-columns: 1fr !important;
+    }
 }
