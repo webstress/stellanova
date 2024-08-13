@@ -696,7 +696,7 @@ section.vision {
 
 
 footer {
-  background-color: var(--primary-color);
+  width: 100%;
   div.container {
     display: flex;
     align-items: center;
@@ -704,6 +704,7 @@ footer {
     padding: 10px;
     flex-direction: column;
     width: 100%;
+    background-color: var(--primary-color);
     .top {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;

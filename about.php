@@ -1,5 +1,6 @@
 <?php
-include_once('./incs/ab-header.php');
+include_once('./incs/head.php');
+include_once('./incs/navbar.php');
 // echo 'Welcome to the home page!';
 ?>
 
@@ -49,4 +50,5 @@ include_once('./incs/ab-header.php');
 
 <?php
 include_once('./incs/ab-footer.php');
+include_once('./incs/script.php');
 ?>
