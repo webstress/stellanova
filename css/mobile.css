@@ -290,15 +290,20 @@ section.login {
       min-height: 100vh;
       div.inner-container {
         justify-content: space-between;
+        min-height: 100vh;
+        padding: 30px;
         div.top {
           div {
             div {
+              display: flex;
+              gap: 30%;
               i.fa.fa-arrow-left.fa-2x {
-  
               }
   
               h2 {
-  
+                font-size: 1.7rem;
+                font-family: "montserrat";
+                font-weight: 600;
               }
             }
   
@@ -307,20 +312,40 @@ section.login {
             }
   
             form {
+              padding: 10px;
+              gap: 15px;
+              margin: 30px 0px;
+              font-family: "montserrat";
               label {
-  
+                color: grey;
+                font-size: 1.05rem;
+                text-transform: capitalize;
               }
   
               input {
-  
+                outline: none;
+                border: 2px solid grey;
+                padding: 10px;
+                border-radius: 15px;
               }
             }
           }
         }
   
         div.bottom {
+          align-items: center;
+          justify-content: center;
           div.next-cta {
-  
+            background-color: var(--primary-color);
+            color: white;
+            font-size: 1.2rem;
+            font-family: "montserrat";
+            border-radius: 15px;
+            padding: 10px 20px;
+            cursor: pointer;
+            width: 80%;
+            text-align: center;
+            text-transform: capitalize;
           }
         }
       }
