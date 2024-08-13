@@ -1,10 +1,28 @@
 @import url(style.css);
 
-.container{
+ .containera{
   max-width: 450px;
 }
-.inner-container{
+.inner-containera{
   width: 100%;
+} 
+
+
+div.bottom {
+  align-items: center;
+  justify-content: center;
+  div.next-cta {
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1.2rem;
+    font-family: "montserrat";
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 80%;
+    text-align: center;
+    text-transform: capitalize;
+  }
 }
 /* mobile naviation */
 
@@ -310,6 +328,10 @@ section.login {
             hr {
   
             }
+            desc{
+              margin: 30px 20px;
+              gap: 20px;
+            }
   
             form {
               padding: 10px;
@@ -327,6 +349,11 @@ section.login {
                 border: 2px solid grey;
                 padding: 10px;
                 border-radius: 15px;
+              }
+              p{
+                color: grey;
+                text-align: right;
+                font-size: 0.8rem;
               }
             }
           }
@@ -353,3 +380,130 @@ section.login {
   }
 
   /* second crypto */
+
+
+  /* invest */
+
+
+  .maininvest {
+    .container {
+      .inner-container {
+        div.img {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img {
+            width: 180px;
+          }
+        }
+  
+        hr.w-100 {
+  
+        }
+  
+        div.bottom {
+          h2 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            font-family: "montserrat";
+            padding: 10px;
+          }
+  
+          div.investment-list {
+            display: flex;
+            padding: 15px;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            div.investment-item {
+              display: flex;
+              flex-direction: column;
+              padding: 10px 20px;
+              background-color: white;
+              border: 1px solid grey;
+              border-radius: 7px;
+              gap: 5px;
+              h3 {
+                font-size: 1.05rem;
+                font-weight: 500;
+              }
+      
+              h2 {
+                span {
+                  font-size: 1.7rem;
+                  font-weight: 700;
+                }
+      
+              }
+      
+              ul {
+                list-style-type: disc;
+                padding-left: 20px;
+                color: var(--secondary-color);
+                gap: 10px;
+                display: flex;
+                flex-direction: column;
+                li {
+                  text-transform: capitalize;
+                  font-size: 0.7rem;
+                  span {
+                    color: grey;
+                  }
+                }
+              }
+      
+              div.invest-cta {
+                align-self: center;
+                margin: 10px;
+                width: 75%;
+                text-align: center;
+                background-color: var(--secondary-color);
+                color: white;
+                padding: 6px 14px;
+                border-radius: 7px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+
+  /* invest */
+
+  section.send {
+    div.container {
+      div.inner-container {
+        h2 {
+  
+        }
+  
+        hr {
+  
+        }
+  
+        div.content {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          margin: 20px;
+          h2{
+            font-size: 1.1rem;
+            text-align: left;
+            font-weight: 600;
+          }
+          p {
+            color: grey;
+          }
+        }
+  
+        div.bottom.flex.w-100 {
+          div.next-cta {
+  
+          }
+        }
+      }
+    }
+  }

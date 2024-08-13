@@ -11,20 +11,20 @@ include_once(__DIR__ . './incs/head.php');
                 <div>
                     <div>
                         <i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i>
-                        <h2>Send BTC</h2>
+                        <h2>Basic Investment</h2>
                     </div>
                     <hr>
                     <form action="" class="flex flex-col">
-                        <label for="address">token address</label>
-                        <input type="text" placeholder="Enter Token Address"> <label for="amount">Token Amount</label>
-                        <input type="text" placeholder="Enter Amount">
+                        <label for="address">Investment Amount</label>
+                        <input type="text" placeholder="min - $100"> 
+                        <p>max - $2000</p>
                     </form>
                 </div>
 
             </div>
             <div class="bottom flex w-100">
                 <div class="next-cta">
-                    next
+                    Invest
                 </div>
             </div>
         </div>
