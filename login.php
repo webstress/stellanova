@@ -1,5 +1,5 @@
 <?php
-include_once('./incs/mb-header.php');
+include_once('./incs/head.php');
 // echo 'Welcome to the home page!';
 ?>
 
@@ -39,5 +39,5 @@ include_once('./incs/mb-header.php');
 
 
 <?php
-include_once('./incs/mb-footer.php');
+include_once('./incs/script.php');
 ?>
