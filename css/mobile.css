@@ -561,3 +561,25 @@ section.login {
       }
     }
   }
+.admin-page .bt select{
+  border-radius: 10px;
+  font-size: 1.1rem;
+  border: 2px solid black;
+  font-weight: 600;
+  height: 50px;
+  padding: 0px 15px;
+  text-transform: uppercase;
+}
+.admin-page .h2-head{
+  text-align: center;
+  margin: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.admin-page .top img{
+  transform: scale(0.8);
+  align-self: center;
+}
+.account-list h2{
+  margin: 10px 0px;
+}
