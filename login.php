@@ -1,6 +1,5 @@
 <?php
-include_once('./incs/head.php');
-// echo 'Welcome to the home page!';
+include_once(__DIR__ . './incs/head.php');
 ?>
 
 
@@ -39,5 +38,5 @@ include_once('./incs/head.php');
 
 
 <?php
-include_once('./incs/script.php');
+include_once(__DIR__ . './incs/script.php');
 ?>

@@ -1,7 +1,6 @@
 <?php
-include_once('./incs/head.php');
-include_once('./incs/navbar.php');
-// echo 'Welcome to the home page!';
+include_once(__DIR__ . './incs/head.php');
+include_once(__DIR__ . './incs/navbar.php');
 ?>
 
 <section class="about hero">
@@ -47,8 +46,7 @@ include_once('./incs/navbar.php');
 
 
 
-
 <?php
-include_once('./incs/ab-footer.php');
-include_once('./incs/script.php');
+include_once(__DIR__ . './incs/ab-footer.php');
+include_once(__DIR__ . './incs/script.php');
 ?>
